@@ -1,7 +1,7 @@
-<h1 align="center">React Fire-Contact App</h1>
+<h1 align="center">React Turkey-Weather-Router-App</h1>
 
 <h3>Overview</h3>
-👨‍💻 👨In this project I mastered React skills. I used mainly REACT and Material UI, Bootstrap, Redux, Firebase. You can see visual demo of the website below. The objective is to build out this real-like webpage and make it looking as professional as possible..
+👨‍💻 In this project I mastered React skills. I used mainly REACT and Styled Component, React Router. You can see visual demo of the website below. The objective is to build out this real-like webpage and make it looking as professional as possible..
 <hr>
 
 ## ✨ Demo
@@ -20,31 +20,34 @@
 ````
 ## Project Skeleton 
 
-- Contact App (folder)
-|
-|----readme.md         
+Turkey Weather(folder)
+|----readme.md        
 SOLUTION
 ├── public
 │     └── index.html
 ├── src
+│    ├── assets.js
+│    │     └── images
 │    ├── components
-│    │       ├── Form.jsx
-│    │       └── Table.jsx
-│    ├── redux
-│    │       ├── editAction.js
-│    │       └── editReducer.js
-│    ├       └── index.js
-│    ├── utils
-│    │       ├── firebase.js
-│    │       ├── customToastify.js
-│    │            
+│    │     ├── Header --> Header.jsx | Header.style.jsx
+│    │     ├── Card --> Card.jsx 
+│    │     └── Navbar --> Navbar.jsx | Navbar.style.jsx
+|    |     └── Footer --> Footer.jsx | Footer.style.jsx
+│    ├── pages
+│    │     ├── Home--> Home.jsx | Home.style.jsx
+│    │     ├── Map --> Map.jsx  | Map.style.jsx
+│    │     ├── Sign --> Sign.jsx  | Sign.style.jsx
+│    │     ├── cities-->CityList.jsx  | CityList.style.jsx
+│    │     
+│    │     
+│    ├── style
+│    │     └── GlobalStyle.jsx
 │    ├── App.js
+│    ├── App.css
 │    ├── index.js
 │    └── index.css
-├── .env
 ├── package.json
 └── yarn.lock
-```
 ````
 <!-- --------------------------------------- -->
 ### Purpose of Project;
